@@ -1,0 +1,107 @@
+#outer{
+	width: 500px;
+	border:solid 1px #ccc;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 30px;
+}
+
+.lock{
+	position: absolute;
+	top:280px;
+	z-index: 3;
+	width:100%;
+	height:100%;
+}
+
+.wrap{
+	overflow: hidden;
+	zoom: 1;
+}
+
+#rule{
+	border: solid 1px #ccc;
+	width: 480px;
+	margin: 0 auto;
+	padding: 20px 0px;
+	text-indent:2em;
+}
+
+#content{
+	padding: 20px 0px;
+	border: solid 1px #ccc;
+	margin: 10px;
+}
+
+.stathead{
+	padding-left:20px;
+	padding-right:20px; 
+}
+
+.stathead font{
+	float: left;
+	padding:5px;
+}
+.width{
+	position: relative;
+	z-index: 5;
+	width: 70px;
+}
+
+.none{
+	display: none;  
+}
+
+.button{
+	border: solid 1px;
+	border-color: #DEF #678 #345 #CDE;
+	background: #ccc;
+	cursor: pointer	
+}
+
+.button:hover{
+	border-color: #345 #cde #def #678;
+}
+
+input{
+	float:left;
+	width: 75px;
+	height: 30px;
+	font-size: 16px;
+	margin-left: 20px;
+	text-align: center;
+	//background: url(images/input.png) no-repeat;
+}
+
+.check{
+	position: relative;
+	z-index: 5;
+	width: 15px;
+	height: 30px;
+}
+
+strong{
+	display: block;
+	margin-left: 420px;
+	height: 33px;
+	margin-right: 20px;
+}
+
+#result{
+	width:300px;
+	margin: 0 auto;
+
+}
+
+#result font{
+	float: left;
+	width: 33%; 
+}
+
+span{
+	position: absolute;
+	top: -2px;
+	font-size: 12px;
+	color: red;
+	display: none;
+}

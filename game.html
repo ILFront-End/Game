@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="game.css">
+	<script type="text/javascript" src="Base.js"></script>
+	<title></title>
+</head>
+	<body>
+	<div class="lock"></div>	
+	<div id="outer" class="wrap">
+		<h4>猜数字游戏</h4>
+		<p id="rule">
+			当点击开始游戏，计算机会生成一个四位数字，你有9次机会猜这个数字，计算机会根据您猜的数字给与提示，~*A*B~其中A前面的数字表示位置正确的数的个数，而B前的数字表示数字正确而位置不对的数的个数。例：计算机生成“2388”，您若猜8888，将提示2A0B
+		</p>
+		<div id="content">
+			<p class="stathead wrap">
+				<font class="star button width">开始游戏</font>
+				<font><input type="checkbox" class="check" name="check">不重复数字</font>
+				<font color="#e4393e" class="none">游戏开始了</font>
+				<font class="none">你还有9次机会</font>
+			<p style="padding-top:20px;position:relative">
+				<span>要输入数字噢~</span>
+				<input class="input" maxlength=1 type="text">
+				<input class="input" maxlength=1 type="text">
+				<input class="input" maxlength=1 type="text">
+				<input class="input" maxlength=1 type="text">
+				<strong class="go button">go</strong>
+			</p>
+			<div id="result" class="wrap">
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
